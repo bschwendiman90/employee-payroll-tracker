@@ -10,10 +10,10 @@ Provide instructions and examples for use. Include screenshots as needed.
 
 Click add employees button and fill out the prompts. New employees can be added later to update average and pick a new draw winner.
 
-    ```md
+
     ![Website in action](./assets/images/in-action.png)
-    ![Website in action](./assets/images/console-log.png)
-    ```
+    ![Website in action console](./assets/images/console-log.png)
+
 
 
 
