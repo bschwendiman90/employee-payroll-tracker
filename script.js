@@ -18,7 +18,8 @@ const collectEmployees = function() {
              const newEmployee = {
             firstName: firstName,
             lastName:lastName,
-            salary:salary
+        //    Searches a string for a number and returns it as a number not a string
+            salary:parseFloat(salary)
             };
 
             employeesArray.push(newEmployee)
@@ -41,7 +42,7 @@ const displayAverageSalary = function(employeesArray) {
     let totalSalary = 0;
     // Add the value of the salary key from all newEmployee objects togther
     for (i=0; i<employeesArray.length; i++) {
-        totalSalary += employeesArray[i].salary;
+        totalSalary += parseFloat(employeesArray[i].salary);
     }
     const average = totalSalary / employeesArray.length
     
